@@ -4,6 +4,12 @@ A lightweight, vendor-neutral macOS menu bar app that keeps each CoreAudio outpu
 
 CoreAudioの出力デバイスごとに、選択したオーディオフォーマットを維持する、ベンダー非依存の軽量メニューバーアプリです。
 
+## Preview / 実行イメージ
+
+![Audio Format Keeper showing the current output device and fixed audio format in the macOS menu bar](docs/images/menu-bar-preview.png)
+
+The current output device appears on the first line, with its fixed physical or virtual format on the second line. 1段目に現在の出力デバイス、2段目に固定した物理または仮想フォーマットを表示します。
+
 > Project status: working source and automated tests are included. The app has not yet been verified with the original SMSL USB AUDIO device, a TEAC DAC, or every third-party driver. See [Hardware verification still needed](#hardware-verification-still-needed--実機確認が必要な項目).
 
 ## 日本語
